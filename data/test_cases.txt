@@ -1,0 +1,50 @@
+Sample Dataset for Airline Cargo Loading Optimization
+=======================================================
+
+Maximum Cargo Capacity: 50 kg
+
+Items:
+------
+Item 1: Medical Supplies - Weight: 10kg, Value: $60
+Item 2: Electronics - Weight: 20kg, Value: $100
+Item 3: Documents - Weight: 15kg, Value: $120
+Item 4: Machine Parts - Weight: 25kg, Value: $180
+Item 5: Perishable Goods - Weight: 8kg, Value: $45
+Item 6: Textiles - Weight: 12kg, Value: $70
+Item 7: Jewelry - Weight: 5kg, Value: $80
+
+Test Case Format (for programmatic loading):
+--------------------------------------------
+7 50
+Medical Supplies 10 60
+Electronics 20 100
+Documents 15 120
+Machine Parts 25 180
+Perishable Goods 8 45
+Textiles 12 70
+Jewelry 5 80
+
+Additional Test Cases:
+=====================
+
+Test Case 2: Small Capacity
+----------------------------
+4 20
+Item_A 5 10
+Item_B 10 40
+Item_C 15 50
+Item_D 8 30
+
+Test Case 3: Large Dataset
+---------------------------
+10 100
+Item_1 10 60
+Item_2 20 100
+Item_3 30 120
+Item_4 40 240
+Item_5 5 30
+Item_6 15 75
+Item_7 25 125
+Item_8 35 175
+Item_9 8 48
+Item_10 12 72
